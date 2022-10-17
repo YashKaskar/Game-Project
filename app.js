@@ -54,4 +54,6 @@ function reset()  {
     p2Display.textContent = 0;
     p1Display.classList.remove('has-text-success', 'has-text-danger');
     p2Display.classList.remove('has-text-success', 'has-text-danger');
+    p1Button.disabled = false
+    p2Button.disabled = false
 }
